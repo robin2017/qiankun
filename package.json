@@ -44,7 +44,8 @@
     "docs:dev": "dumi dev",
     "docs:build": "dumi build",
     "ci": "yarn lint && yarn build && yarn test",
-    "test": "cross-env NODE_ENV=test jest"
+    "test": "cross-env NODE_ENV=test jest",
+    "push" :"git add . && git commit -m \"auto save\" --no-verify && git push"
   },
   "repository": {
     "type": "git",
